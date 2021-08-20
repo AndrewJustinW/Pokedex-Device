@@ -1,0 +1,44 @@
+* {
+    margin: 0
+}
+
+:root {
+    // --size: 80;
+    // --unit: calc((var(--size) / 480) * 1vmin);
+
+    --red: #dc0a2d;
+    --red-shadow: #8c0820;
+    --red-highlight: #f0667d;
+    --black: #04312a;
+    --blue: #21aefe;
+    --blue-gradient: #98d9ff;
+    --red-light: #f7103c;
+    --red-light-gradient: #fd7991;
+    --yellow-light: #ffdc40;
+    --yellow-light-gradient: #fcf6dc;
+    --green-light: #326b3e;
+    --green-light-gradient: #7fbf8d;
+
+    --screen-green: #51ae5e;
+    --screen-dark: #232323;
+    --white: #dedede;
+
+    --background: #232323;
+    background: var(--background);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.App {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@import "pokedex.scss";

@@ -1,0 +1,351 @@
+.pokedex {
+    position: absolute;
+    // height: 60%;
+    // width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 3%;
+    bottom: 15%;
+}
+
+
+// LEFT SIDE OF POKEDEX
+.left-side {
+    width: 440px;
+    height: 700px;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    background-color: rgb(241, 58, 58);
+
+
+    .left-top {
+        height: 15%;
+        width: 100%;
+        border: black 1px solid;
+        border-top-left-radius: 10px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0px 5px 0px black;
+
+        .blue-circle-container {
+            width: 25%;
+            height: 100%;
+            // border: black 1px solid;
+        }
+
+
+        .blue-circle {
+            height: 50px;
+            width: 50px;
+            border: solid 5px white;
+            border-radius: 50%;
+            background: rgb(43, 161, 216);
+            margin: 15%;
+        }
+
+        .top-lights {
+            width: 75%;
+            height: 100%;
+            display: flex;
+            margin-top: 5%;
+
+            .top-light {
+
+                height: 13px;
+                width: 13px;
+                border-radius: 50%;
+                border: 1px solid black;
+                margin-left: 8px;
+
+            }
+
+            .orange {
+                background-color: orange;
+            }
+
+            .yellow {
+                background-color: yellow;
+            }
+
+            .green {
+                background-color: green;
+            }
+        }
+    }
+
+    .left-mid {
+        height: 60%;
+        width: 100%;
+        // border: black 1px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // background: linear-gradient(135deg, transparent 20px, white 20px);
+
+
+        .main-screen-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60%;
+            padding: 100px;
+            width: 60%;
+            background: rgb(218, 219, 215);
+            // border: 1px solid black;
+            border-radius: 5px;
+            padding: 15px;
+            background: linear-gradient(45deg, transparent 25px, white 20px);
+            box-shadow: 5px 0px 0px black;
+
+
+            .main-screen {
+                width: 80%;
+                height: 80%;
+                background: rgb(52, 53, 52);
+                border: solid #000000 2px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+
+            }
+        }
+
+        .two-buttons {
+            display: flex;
+            margin-top: 15px;
+            margin-right: 15%;
+
+        }
+
+        .button {
+            background: rgb(59, 112, 226);
+            margin-right: 30px;
+            border-radius: 10px;
+            height: 10px;
+            width: 40px;
+        }
+    }
+
+    .left-bottom {
+        height: 24%;
+        width: 100%;
+        border-bottom-left-radius: 10px;
+        display: flex;
+
+        .black-button-container {
+            width: 25%;
+            // border: solid black 1px;
+            display: flex;
+            justify-content: center;
+
+            .black-button {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background: rgb(75, 75, 75);
+                border: solid 1px black;
+
+            }
+        }
+
+        .bottom-middle {
+            width: 30%;
+            height: 100%;
+            // border: solid black 1px;
+
+
+
+            .mini-screen-container {
+                width: 100%;
+                height: 90%;
+                display: flex;
+                justify-content: center;
+
+                .mini-screen {
+                    border: solid 1px black;
+                    width: 100%;
+                    height: 50%;
+                    margin-top: 30px;
+                    background: rgb(41, 41, 41);
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: rgb(52, 202, 52)
+                }
+            }
+
+
+        }
+
+        .directional-pad {
+            width: 50%;
+            height: 100%;
+            // border: solid black 1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .direction {
+                background: rgb(75, 75, 75);
+            }
+
+            .left-direction {
+                width: 30px;
+                height: 20px;
+                cursor: pointer;
+            }
+
+
+            .top-and-bottom {
+                height: 100%;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .top-direction {
+                    width: 20px;
+                    height: 40px;
+                }
+
+                .bottom-direction {
+                    width: 20px;
+                    height: 40px;
+                }
+            }
+
+            .right-direction {
+                width: 30px;
+                height: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+
+// RIGHT SIDE OF POKEDEX
+.right-side {
+    width: 440px;
+    height: 593px;
+    border: 1px solid black;
+    background-color: rgb(241, 58, 58);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    .right-top {
+        height: 32%;
+        width: 100%;
+        // border: solid black 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .right-screen {
+            padding: 10px;
+            height: 30%;
+            width: 70%;
+            border: 1px solid black;
+            border-radius: 10px;
+            background: rgb(41, 41, 41);
+            color: rgb(52, 202, 52);
+        }
+
+    }
+
+    .right-mid {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .top-row {
+            width: 80%;
+            height: 30%;
+            display: flex;
+        }
+
+        .bottom-row {
+            width: 80%;
+            height: 30%;
+            display: flex;
+        }
+
+        .box {
+            width: 20%;
+            height: 100%;
+            border: solid black 1px;
+            background-color: rgb(66, 94, 255);
+        }
+
+    }
+
+    .right-bot {
+        width: 100%;
+        height: 38%;
+
+        .dual-boxes {
+            width: 25%;
+            height: 25%;
+            display: flex;
+            margin-left: 50px;
+            border-radius: 10px;
+            border: solid 1px black;
+
+            .box {
+                width: 50%;
+                height: 100%;
+                border: solid 1px black;
+                background-color: white;
+            }
+        }
+
+        .yellow-button-container {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+
+            .yellow-button {
+                height: 45px;
+                width: 45px;
+                border: solid 1px black;
+                border-radius: 50%;
+                background-color: yellow;
+                margin-right: 20%;
+
+            }
+        }
+
+        .double-screens {
+            height: 51%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .screen {
+                border: solid black 1px;
+                width: 25%;
+                margin: 20px;
+                height: 35%;
+                background: rgb(41, 41, 41);
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+        }
+
+
+    }
+}
